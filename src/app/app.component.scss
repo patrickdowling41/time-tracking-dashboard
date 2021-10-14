@@ -1,0 +1,16 @@
+.container {
+    @apply bg-blue-400 flex items-center justify-center min-h-screen min-w-full;
+}
+
+.main-grid {
+    @apply grid grid-cols-4 gap-1;
+}
+
+.profile {
+    @apply col-start-1 col-span-4 row-span-2 bg-gray-500 md:col-span-1;
+}
+
+.time-card {
+    @apply col-span-4 md:col-span-1 bg-gray-600;
+}
+
