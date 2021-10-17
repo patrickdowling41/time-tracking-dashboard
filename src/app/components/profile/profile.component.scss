@@ -1,0 +1,43 @@
+@import "../../global.scss";
+
+.user-heading {
+    @apply flex flex-row rounded-lg;
+    background-color: $blue;
+}
+
+.user-heading-content {
+    @apply flex-auto;
+}
+
+.time-period-selectors {
+    @apply flex flex-row;
+}
+
+.time-period {
+    @apply flex-1 text-center p-4;
+    font-family: $rubiks;
+    font-size: $stdFontSize;
+    font-weight: $regularFontWeight;
+    color: $desaturatedBlue;
+    &:hover {
+        color: $paleBlue;
+        cursor: pointer;
+    }
+}
+.selected {
+    color: white;
+}
+
+.report-for-heading {
+    font-family: $rubiks;
+    font-weight: $regularFontWeight;
+    font-size: 12px;
+    color: $desaturatedBlue;
+}
+
+.user-name-heading {
+    font-family: $rubiks;
+    font-weight: 900;
+    font-size: $headingFontSize;
+    color: white;
+}

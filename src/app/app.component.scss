@@ -1,5 +1,8 @@
+@import "./global.scss";
+
 .container {
-    @apply bg-blue-400 flex items-center justify-center min-h-screen min-w-full;
+    @apply flex items-center justify-center min-h-screen min-w-full;
+    background-color: $veryDarkBlue
 }
 
 .main-grid {
@@ -7,7 +10,8 @@
 }
 
 .profile {
-    @apply col-start-1 col-span-4 row-span-2 bg-gray-500 md:col-span-1;
+    @apply col-start-1 col-span-4 row-span-2 md:col-span-1 rounded-lg;
+    background-color: $darkBlue;
 }
 
 .time-card {
